@@ -1,3 +1,9 @@
+/*
+ * @Source: https://github.com/Jonny-hzy/IPC-FIFO
+ * @LastEdit: 2024-04-30
+ * @FilePath: \FIFO\fifo\fifo.h
+ * @Description: fifo再封装接口
+ */
 #ifndef __FIFO_H__
 #define __FIFO_H__
 

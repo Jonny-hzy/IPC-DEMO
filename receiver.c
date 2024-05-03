@@ -1,3 +1,9 @@
+/*
+ * @Source: https://github.com/Jonny-hzy/IPC-FIFO
+ * @LastEdit: 2024-04-30
+ * @FilePath: \FIFO\receiver.c
+ * @Description: fifo接收端
+ */
 #include <stdio.h>
 
 #include "fifo.h"

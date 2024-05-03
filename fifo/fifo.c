@@ -1,3 +1,9 @@
+/*
+ * @Source: https://github.com/Jonny-hzy/IPC-FIFO
+ * @LastEdit: 2024-04-30
+ * @FilePath: \FIFO\fifo\fifo.c
+ * @Description: fifo再封装
+ */
 #include <stdio.h>
 #include <fcntl.h>
 #include <string.h>
