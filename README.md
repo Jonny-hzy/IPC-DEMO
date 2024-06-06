@@ -5,6 +5,7 @@
 # 文件
 
 IPC-FIFO：有名管道
+IPC-SharedMemory：共享内存
 
 
 
