@@ -2,7 +2,7 @@
  * @Source: https://github.com/Jonny-hzy/IPC-DEMO
  * @LastEdit: 2024-06-11
  * @FilePath: server.c
- * @Description: socket服务端
+ * @Description: socket服务端测试
  */
 #include <stdio.h>
 #include <string.h>

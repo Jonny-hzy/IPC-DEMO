@@ -33,5 +33,5 @@ endif
 
 .PHONY : clean
 clean:
-	rm ./*.o
-	rm -r ./$(BIN_DIR)
+	@find . -name "*.o" | xargs rm -f
+	@rm -rf ./$(BIN_DIR)

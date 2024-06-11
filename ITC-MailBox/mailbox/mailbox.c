@@ -1,5 +1,5 @@
 /*
- * @Source: https://github.com/Jonny-hzy/ITC-MailBox
+ * @Source: https://github.com/Jonny-hzy/IPC-DEMO
  * @LastEdit: 2024-05-09
  * @FilePath: ./mailbox/mailbox.c
  * @Description: 线程邮箱核心功能

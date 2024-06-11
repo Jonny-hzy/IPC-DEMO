@@ -1,8 +1,8 @@
 /*
- * @Source: https://github.com/Jonny-hzy/IPC-FIFO
+ * @Source: https://github.com/Jonny-hzy/IPC-DEMO
  * @LastEdit: 2024-04-30
- * @FilePath: \FIFO\fifo\fifo.c
- * @Description: fifo再封装
+ * @FilePath: fifo\fifo.c
+ * @Description: fifo API重封装
  */
 #include <stdio.h>
 #include <fcntl.h>

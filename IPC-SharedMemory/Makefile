@@ -38,7 +38,5 @@ receiver:$(OBJ_RECVER) outpur_dir
 
 .PHONY : clean
 clean:
-	rm -f ./*.o
-	rm -f ./*/*.o
-	rm -rf $(BIN_DIR)
-
+	@find . -name "*.o" | xargs rm -f
+	@rm -rf ./$(BIN_DIR)

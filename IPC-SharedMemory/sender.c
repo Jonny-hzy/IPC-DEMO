@@ -1,8 +1,8 @@
 /*
- * @Source: https://github.com/Jonny-hzy/IPC-SharedMemory
+ * @Source: https://github.com/Jonny-hzy/IPC-DEMO
  * @LastEdit: 2024-05-16
  * @FilePath: sender.c
- * @Description: 共享内存通信的发送端
+ * @Description: 共享内存的发送端测试
  */
 #include <stdio.h>
 #include <string.h>

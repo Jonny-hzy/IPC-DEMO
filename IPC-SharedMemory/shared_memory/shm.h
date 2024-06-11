@@ -1,8 +1,8 @@
 /*
- * @Source: https://github.com/Jonny-hzy/IPC-SharedMemory
+ * @Source: https://github.com/Jonny-hzy/IPC-DEMO
  * @LastEdit: 2024-05-16
  * @FilePath: shared_memory/shm.h
- * @Description: 共享内存重封装API
+ * @Description: 共享内存API重封装
  */
 #ifndef __SHM_H__
 #define __SHM_H__

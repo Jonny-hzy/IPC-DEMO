@@ -1,8 +1,8 @@
 /*
- * @Source: https://github.com/Jonny-hzy/IPC-SharedMemory
+ * @Source: https://github.com/Jonny-hzy/IPC-DEMO
  * @LastEdit: 2024-05-16
  * @FilePath: reader.c
- * @Description: 共享内存通信的接收端
+ * @Description: 共享内存通信的接收端测试
  */
 #include <stdio.h>
 #include "shm.h"
