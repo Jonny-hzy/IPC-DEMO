@@ -4,8 +4,10 @@
 
 # 文件
 
-IPC-FIFO：有名管道
+RPC-Socket：设备间通信-套接字
 
-IPC-SharedMemory：共享内存
+IPC-FIFO：进程间通信-有名管道
 
-ITC-MailBox：线程邮箱
+IPC-SharedMemory：进程间通信-共享内存
+
+ITC-MailBox：线程间通信-线程邮箱
