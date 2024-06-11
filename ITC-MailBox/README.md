@@ -16,5 +16,4 @@ mailbox/mailbox_user.h：线程邮箱用户管理接口（对内）。
 
 # 测试
 
-![image](https://github.com/Jonny-hzy/ITC-MailBox/assets/31642597/9c9ab497-b5b5-42d6-a099-0ed0202b00df)
-
+![image](https://github.com/Jonny-hzy/IPC-DEMO/assets/31642597/90c6a2c8-2c40-40d0-a7ef-8fd1bbd0e7e6)
