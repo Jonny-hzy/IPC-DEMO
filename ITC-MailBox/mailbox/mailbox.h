@@ -1,5 +1,5 @@
 /*
- * @Source: https://github.com/Jonny-hzy/IPC-DEMO
+ * @Source: https://github.com/Jonny-hzy/IPC-DEMO/tree/main/ITC-MailBox
  * @LastEdit: 2024-05-09
  * @FilePath: ./mailbox/mailbox.h
  * @Description: 线程邮箱对外API

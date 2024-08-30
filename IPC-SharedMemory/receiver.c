@@ -1,5 +1,5 @@
 /*
- * @Source: https://github.com/Jonny-hzy/IPC-DEMO
+ * @Source: https://github.com/Jonny-hzy/IPC-DEMO/tree/main/IPC-SharedMemory
  * @LastEdit: 2024-05-16
  * @FilePath: reader.c
  * @Description: 共享内存通信的接收端测试
