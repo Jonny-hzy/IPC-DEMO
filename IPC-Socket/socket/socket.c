@@ -1,5 +1,5 @@
 /*
- * @Source: https://github.com/Jonny-hzy/IPC-DEMO
+ * @Source: https://github.com/Jonny-hzy/IPC-DEMO/IPC-Socket
  * @LastEdit: 2024-06-11
  * @FilePath: socket/socket.c
  * @Description: socket API重封装
