@@ -1,0 +1,39 @@
+
+cc_binary {
+    name: "bindertest_client",
+
+    srcs: [
+        "test_client.cpp",
+        "ITest.cpp",
+    ],
+
+    shared_libs: [
+        "libutils",
+        "libbinder",
+    ],
+
+    cflags: [
+        "-Werror",
+        "-Wno-unused-parameter",
+    ],
+}
+
+
+cc_binary {
+    name: "bindertest_service",
+
+    srcs: [
+        "test_service.cpp",
+        "ITest.cpp",
+    ],
+
+    shared_libs: [
+        "libutils",
+        "libbinder",
+    ],
+
+    cflags: [
+        "-Werror",
+        "-Wno-unused-parameter",
+    ],
+}
