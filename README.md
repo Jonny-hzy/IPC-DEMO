@@ -4,10 +4,14 @@
 
 # 文件
 
-RPC-Socket：设备间通信-套接字
+ITC-MailBox：线程间通信-线程邮箱
 
 IPC-FIFO：进程间通信-有名管道
 
+IPC-MsgQue：进程间通信-消息队列
+
 IPC-SharedMemory：进程间通信-共享内存
 
-ITC-MailBox：线程间通信-线程邮箱
+IPC-Socket：设备间通信-套接字
+
+RPC-Binder：远程调用-安卓binder

@@ -17,7 +17,7 @@ namespace android {
 class ITest : public IInterface
 {
 public:
-    DECLARE_META_INTERFACE(Test) // detail: frameworks/native/libs/binder/include/binder/IInterface.h
+    DECLARE_META_INTERFACE(Test)
 
     enum {
         TEST_SET = IBinder::FIRST_CALL_TRANSACTION,
