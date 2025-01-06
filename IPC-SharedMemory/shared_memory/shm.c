@@ -65,6 +65,7 @@ int shm_create_with_key(unsigned int length, const char *key_file_path, int key_
         return shmid;
     }
     LOGD("%s succeed (shmid=%d)\n", __func__, shmid);
+    return shmid;
 }
 
 int shm_create(unsigned int length)

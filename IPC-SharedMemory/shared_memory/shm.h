@@ -12,7 +12,7 @@
 //重要：reader和writer的 KEY_FILE_PATH 和 KEY_NUMBER 需要完全一致
 //KEY_FILE_PATH 需要真实存在，文件或目录皆可，对权限无要求
 //KEY_NUMBER 有效部分是小于256的部分
-#define KEY_FILE_PATH               "/tmp"
+#define KEY_FILE_PATH               "/mnt"
 #define KEY_NUMBER                  123
 
 /*

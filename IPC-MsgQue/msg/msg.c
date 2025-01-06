@@ -133,5 +133,5 @@ int msg_read_with_type(int msgid, char *buf, unsigned int len, long type)
 
 int msg_read(int msgid, char *buf, unsigned int len)
 {
-    return msg_read_with_type(msgid, buf, len, 1);
+    return msg_read_with_type(msgid, buf, len, 0);
 }
