@@ -5,6 +5,7 @@
  * @Description: 共享内存通信的接收端测试
  */
 #include <stdio.h>
+#include <unistd.h>
 #include "shm.h"
 
 

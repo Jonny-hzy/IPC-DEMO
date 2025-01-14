@@ -5,9 +5,11 @@
  * @Description: fifo API重封装
  */
 #include <stdio.h>
+#include <unistd.h>
 #include <fcntl.h>
 #include <string.h>
 #include <errno.h>
+#include <sys/stat.h>
 
 #include "fifo.h"
 

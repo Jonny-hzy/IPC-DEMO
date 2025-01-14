@@ -5,6 +5,7 @@
  * @Description: fifo发送端测试
  */
 #include <stdio.h>
+#include <unistd.h>
 
 #include "fifo.h"
 

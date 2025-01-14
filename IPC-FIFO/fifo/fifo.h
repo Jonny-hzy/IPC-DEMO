@@ -34,7 +34,7 @@ int fifo_init(void);
     reader:包含 fifo_destroy() 和 fifo_close()
     writer:仅含 fifo_close()
 */
-int fifo_exit(void);
+int fifo_deinit(void);
 /*
     fifo读取
     返回值：＞0：成功读到的长度；=0：未读到数据；＜0：出错
