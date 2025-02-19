@@ -19,14 +19,14 @@ Objs := $(patsubst %.c,%.o, $(Sources))
 
 target = test_mailbox
 cc = gcc
-$(target):$(Objs) outpur_dir
+$(target):$(Objs) output_dir
 	#$(warning $(Objs))
 	$(cc)  $(Objs) $(CFLAGS) $(LIBS) -lm -o $(LOCAL_PATH)/$(BIN_DIR)/$@
 %.o:%.c
 	#$(warning $(LOCAL_PATH)/$@)
 	$(cc) -c $< $(CFLAGS) $(LIBS) -lm -o $@
 
-outpur_dir:
+output_dir:
 ifeq ($(wildcard $(BIN_DIR)),)
 	mkdir $(BIN_DIR)
 endif

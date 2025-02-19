@@ -18,9 +18,9 @@ int main()
 
     if (pid == 0) //子进程
     {
-        char buf[256];
+        char buf[256] = {0};
         close(pipefd[1]); //关闭写端
-        read(pipefd[0], buf, sizeof(buf));  //从管道读取数据
+        read(pipefd[0], buf, sizeof(buf)-1);  //从管道读取数据
         printf("Child process received: %s\n", buf);
     }
     else //父进程

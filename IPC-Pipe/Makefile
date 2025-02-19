@@ -12,12 +12,12 @@ cc = gcc
 .PHONY : clean
 all:test
 
-outpur_dir:
+output_dir:
 ifeq ($(wildcard $(BIN_DIR)),)
 	mkdir ./$(BIN_DIR)
 endif
 
-test:$(OBJ_SENDER) outpur_dir
+test:$(OBJ_SENDER) output_dir
 	$(cc)  $(OBJ_SENDER) $(CFLAGS) $(LIBS) -lm -o $(LOCAL_PATH)/$(BIN_DIR)/$@
 
 %.o:%.c %.h

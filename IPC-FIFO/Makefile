@@ -21,15 +21,15 @@ cc = gcc
 .PHONY : clean
 all:sender receiver
 
-outpur_dir:
+output_dir:
 ifeq ($(wildcard $(BIN_DIR)),)
 	mkdir ./$(BIN_DIR)
 endif
 
-sender:$(OBJ_SENDER) outpur_dir
+sender:$(OBJ_SENDER) output_dir
 	$(cc)  $(OBJ_SENDER) $(CFLAGS) $(LIBS) -lm -o $(LOCAL_PATH)/$(BIN_DIR)/$@
 	
-receiver:$(OBJ_RECVER) outpur_dir
+receiver:$(OBJ_RECVER) output_dir
 	$(cc)  $(OBJ_RECVER) $(CFLAGS) $(LIBS) -lm -o $(LOCAL_PATH)/$(BIN_DIR)/$@
 
 %.o:%.c %.h

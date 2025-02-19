@@ -21,15 +21,15 @@ cc = gcc
 .PHONY : clean
 all:client server
 
-outpur_dir:
+output_dir:
 ifeq ($(wildcard $(BIN_DIR)),)
 	mkdir ./$(BIN_DIR)
 endif
 
-client:$(OBJ_CLIENT) outpur_dir
+client:$(OBJ_CLIENT) output_dir
 	$(cc)  $(OBJ_CLIENT) $(CFLAGS) $(LIBS) -lm -o $(LOCAL_PATH)/$(BIN_DIR)/$@
 
-server:$(OBJ_SERVER) outpur_dir
+server:$(OBJ_SERVER) output_dir
 	$(cc)  $(OBJ_SERVER) $(CFLAGS) $(LIBS) -lm -o $(LOCAL_PATH)/$(BIN_DIR)/$@
 
 %.o:%.c %.h
