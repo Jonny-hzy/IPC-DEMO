@@ -1,7 +1,7 @@
 /*
  * @Source: https://github.com/Jonny-hzy/IPC-DEMO/tree/main/IPC-MsgQue
  * @LastEdit: 2025-01-04
- * @FilePath: receiver.c
+ * @FilePath: sender.c
  * @Description: MessageQueues发送端测试
  */
 #include <stdio.h>
@@ -11,7 +11,7 @@
 #include "msg.h"
 
 
-int main(void)
+int main(int argc, char** argv)
 {
     const char buf[][MSG_SIZE] = {
         "[MSG-TEST-EVENT_A]",
