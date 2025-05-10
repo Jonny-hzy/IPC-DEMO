@@ -12,6 +12,8 @@ IPC-Pipe：进程间通信-匿名管道
 
 IPC-MsgQue：进程间通信-消息队列
 
+IPC-Signal：进程间通信-信号
+
 IPC-SharedMemory：进程间通信-共享内存
 
 IPC-Socket：设备间通信-套接字
