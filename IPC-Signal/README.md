@@ -9,4 +9,4 @@ sender.c：信号发送方。
 receiver.c：信号接收方。
 
 # 测试
-
+![image](https://github.com/user-attachments/assets/b65e22e6-06ff-48a6-bc27-0445ccdc2206)
